@@ -3,19 +3,19 @@
 A command-line library management system built with Python and SQLite.
 
 ## Features
--Add, list, update, and delete books
--Add, list, update, and delete members
--Issue and return book loans
--All data stored in SQLite database
+- Add, list, update, and delete books
+- Add, list, update, and delete members
+- Issue and return book loans
+- All data stored in SQLite database
 
 ## Project Structure
--database.py — database connection and initialization
--books.py — CRUD operations for books
--members.py — CRUD operations for members
--loans.py — CRUD operations for loans
--main.py — CLI menu and entry point
--schema.sql — database schema and sample data
--tests.py — automated test cases
+- database.py — database connection and initialization
+- books.py — CRUD operations for books
+- members.py — CRUD operations for members
+- loans.py — CRUD operations for loans
+- main.py — CLI menu and entry point
+- schema.sql — database schema and sample data
+- tests.py — automated test cases
 
 ## How to Run
 1. Make sure Python is installed
@@ -26,9 +26,9 @@ A command-line library management system built with Python and SQLite.
 python tests.py
 
 ## Database Schema
--books - id, title, author, year, available
--members - id, name, email, phone
--loans - id, book_id, member_id, loan_date, return_date
+- books - id, title, author, year, available
+- members - id, name, email, phone
+- loans - id, book_id, member_id, loan_date, return_date
 
 ## How I Developed This Project
 
@@ -43,8 +43,8 @@ Development process: database design → backend modules → CLI interface → t
 
 ## What I Learned
 
--How to structure a Python project across multiple modules
--How to connect Python to SQLite and perform CRUD operations
--How relational tables and foreign keys work in practice
--How to use Git and GitHub with meaningful commits
--How to write basic automated tests
+- How to structure a Python project across multiple modules
+- How to connect Python to SQLite and perform CRUD operations
+- How relational tables and foreign keys work in practice
+- How to use Git and GitHub with meaningful commits
+- How to write basic automated tests
